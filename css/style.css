@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.form__dados{
+    margin: 10px auto;
+    width: 500px;
+    height: 400px;
+}
+
+h1{
+   font-family: 'Lato', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 6px;
+   text-align: center;
+   color: rgb(58, 76, 131); 
+   background-color: rgb(189, 189, 189);
+   background-image: url(../images/icone-foto.png);
+   background-repeat: no-repeat;
+   background-position: 10px center;
+}
+
+p{
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+label{
+    font-size: 15px;
+}
+
+legend{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: rgb(68, 89, 109);
+}
+
+textarea{
+    width: 500px;
+    height: 100px;
+    resize: none;
+}
+
+.componente{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#email{
+    background-image: url(../images/icone-email.png);
+}
+
+#senha{
+    background-image: url(../images/icone-senha.png);
+}
+
+.botao__enviar{
+    padding: 10px 15px;
+    background-color: rgb(155, 195, 218);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(58, 76, 131);
+}
+
+.botao__enviar:hover{
+    background-color: aquamarine;
+    color: rgb(82, 57, 250);
+    cursor: pointer;
+}
